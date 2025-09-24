@@ -13,7 +13,7 @@ using Newtonsoft.Json.Linq;
 class Program
 {
     static HashSet<string> migratedRepos = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-    static string migratedFile = @"E:\Workspace\Neoquant Projects\GitRepoMigrationGogsToGitLab\migrated_repos.txt";
+    static string migratedFile = @"E:\Workspace\GitRepoMigrationGogsToGitLab\migrated_repos.txt";
 
     static void LoadMigratedRepos()
     {
